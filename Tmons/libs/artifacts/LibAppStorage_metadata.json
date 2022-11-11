@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tmons/libs/LibAppStorage.sol": "LibAppStorage"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tmons/libs/LibAppStorage.sol": {
+			"keccak256": "0xe0153ca3e65c912bb0313b630e3e07af886f79af35db5c5b61f4171b77ddeb98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8d26e5aa4ba6344a4bf78f9bc9d99ee1d2e24007363447334d16b9359e70350",
+				"dweb:/ipfs/Qme8Li1VAsKfvMimcry8cGpBVfRfhLnuXGGuvMLxWkeP3Y"
+			]
+		}
+	},
+	"version": 1
+}

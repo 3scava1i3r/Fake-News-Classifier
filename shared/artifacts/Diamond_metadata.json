@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shared/Diamond.sol": "Diamond"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shared/Diamond.sol": {
+			"keccak256": "0x40e8f2d48b0f02732171ce77cd2ccce0ccc4f6ad2fb51683cc89089de6f48ba8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f6d3786ae4fcb2287b4113f543dbf98609eeedfc06069c14761d81af3b4b129e",
+				"dweb:/ipfs/QmZ4CaJZxQxxA4p8egixetUeZhYWdqCYijXfg9hYMETdbx"
+			]
+		}
+	},
+	"version": 1
+}

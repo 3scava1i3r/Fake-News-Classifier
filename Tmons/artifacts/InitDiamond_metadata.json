@@ -1,0 +1,79 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "symbol",
+								"type": "string"
+							}
+						],
+						"internalType": "struct InitDiamond.Args",
+						"name": "_args",
+						"type": "tuple"
+					}
+				],
+				"name": "init",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Tmons/InitDiamond.sol": "InitDiamond"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Tmons/InitDiamond.sol": {
+			"keccak256": "0xc804cc9cb903d544183d35077dff558d1da131dd4143cffbacbbb464a9b47d14",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://dc01347d6d4020261b1a0a5f4a565fc49a316bd453fa301df4a11f085053d0f3",
+				"dweb:/ipfs/QmRnyyYGKrftGq3qTMRf1mV6Jc3YvkXJZm12SjDqddGT8K"
+			]
+		},
+		"Tmons/libs/LibAppStorage.sol": {
+			"keccak256": "0xe0153ca3e65c912bb0313b630e3e07af886f79af35db5c5b61f4171b77ddeb98",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c8d26e5aa4ba6344a4bf78f9bc9d99ee1d2e24007363447334d16b9359e70350",
+				"dweb:/ipfs/Qme8Li1VAsKfvMimcry8cGpBVfRfhLnuXGGuvMLxWkeP3Y"
+			]
+		}
+	},
+	"version": 1
+}
