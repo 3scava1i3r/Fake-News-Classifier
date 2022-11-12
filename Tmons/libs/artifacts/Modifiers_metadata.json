@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Tmons/libs/LibAppStorage.sol": "LibAppStorage"
+			"Tmons/libs/LibAppStorage.sol": "Modifiers"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},

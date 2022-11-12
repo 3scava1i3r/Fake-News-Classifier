@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_from",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_tokenId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_data",
+						"type": "bytes"
+					}
+				],
+				"name": "onERC721Received",
+				"outputs": [
+					{
+						"internalType": "bytes4",
+						"name": "",
+						"type": "bytes4"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"details": "Note: the ERC-165 identifier for this interface is 0x150b7a02.",
+			"kind": "dev",
+			"methods": {
+				"onERC721Received(address,address,uint256,bytes)": {
+					"details": "The ERC721 smart contract calls this function on the recipient  after a `transfer`. This function MAY throw to revert and reject the  transfer. Return of other than the magic value MUST result in the  transaction being reverted.  Note: the contract address is always the message sender.",
+					"params": {
+						"_data": "Additional data with no specified format",
+						"_from": "The address which previously owned the token",
+						"_operator": "The address which called `safeTransferFrom` function",
+						"_tokenId": "The NFT identifier which is being transferred"
+					},
+					"returns": {
+						"_0": "`bytes4(keccak256(\"onERC721Received(address,address,uint256,bytes)\"))`  unless throwing"
+					}
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {
+				"onERC721Received(address,address,uint256,bytes)": {
+					"notice": "Handle the receipt of an NFT"
+				}
+			},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"shared/interfaces/IERC721TokenReceiver.sol": "IERC721TokenReceiver"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"shared/interfaces/IERC721TokenReceiver.sol": {
+			"keccak256": "0x6c5c6e142b3c49b8251f9788e1333012b6aec1288aa8926d3cccf705533d81f2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fb2ea06fb3f90b76338b79aea66bf6ea79d4a87701b402eec7eaaca28af830a5",
+				"dweb:/ipfs/QmNv4fcJx5BMChRtZpgSe7HyxLDksESTtLpzDGG1zzRBEn"
+			]
+		}
+	},
+	"version": 1
+}

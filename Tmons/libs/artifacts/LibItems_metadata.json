@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"Tmons/libs/LibAppStorage.sol": "LibAppStorage"
+			"Tmons/libs/LibItems.sol": "LibItems"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -48,6 +48,14 @@
 				"dweb:/ipfs/QmSWWCHhSA4aUgbUQRBAM1Pcqpe8fitfgAiaekYkS2UAPJ"
 			]
 		},
+		"Tmons/libs/LibItems.sol": {
+			"keccak256": "0x1f3280a8ae2d15b798f260840c90b9d3ef93c850cfeba7f6e3c02921c18acc76",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5c8b596c2ed05dd0d45d43d19402ccedca35a2728ce5a071d08d0462097b2518",
+				"dweb:/ipfs/QmdvpYjE4tvuq5Prq1TU35LPGFEPeWuoe3Sv3v1RNfdoZh"
+			]
+		},
 		"shared/interfaces/IDiamondCut.sol": {
 			"keccak256": "0xc4aeefa6292b5abe7eba8b384578feb47e50783b7517692aad04c2247b756bde",
 			"license": "MIT",
@@ -62,6 +70,14 @@
 			"urls": [
 				"bzz-raw://349fcce52a02e0e5261c23281a2ab1fdaa58b5fedd8134104cd2a8d670034721",
 				"dweb:/ipfs/QmVHmyM8UBiozFLSQSRUX14ucAJT2NyDoRmF6WzfJ21jt6"
+			]
+		},
+		"shared/interfaces/IERC1155TokenReceiver.sol": {
+			"keccak256": "0xd6e9d3666207528130e0b2f8bdbd5b7506ea0e244741e0b53c97f4cdd09e9536",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1346daf8f4add7a25724fe51644667ed43d0596a7d9fc6eec80a18413f857b98",
+				"dweb:/ipfs/QmdyyQzjubFUiruVC73zWPB37gj5AymRu9RJ2JbFxNjuXm"
 			]
 		},
 		"shared/interfaces/IERC165.sol": {
@@ -86,6 +102,14 @@
 			"urls": [
 				"bzz-raw://aac7a4476568e23429c96c3ff46b05076c3e32865a9a71ea3aec5b0775aaf333",
 				"dweb:/ipfs/QmUcCSaqJfNi5m6rZG7VHLQk6tFg479uZFZqiRnyoByLB3"
+			]
+		},
+		"shared/libs/LibERC1155.sol": {
+			"keccak256": "0xc26b3342ec108af682fb4f8ff41da1a262cb370f1e194d7fbdaac3c6a44fe959",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://c21d6e25e3b644d8ceb1269cc7d8cb379dc7948aa8cc99a09e8247d1a4e96c6c",
+				"dweb:/ipfs/QmWRVVPjPxpiv3649xtoX2D1QXtRMSSrgWshHsizKLAMgr"
 			]
 		},
 		"shared/libs/LibMeta.sol": {

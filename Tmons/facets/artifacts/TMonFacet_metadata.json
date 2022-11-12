@@ -4,21 +4,101 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "_operator",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "_approved",
+						"type": "bool"
+					}
+				],
+				"name": "PetOperatorApprovalForAll",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "balance_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "totalSupply_",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
-			"methods": {},
+			"methods": {
+				"balanceOf(address)": {
+					"details": "NFTs assigned to the zero address are considered invalid, and this.  function throws for queries about the zero address.",
+					"params": {
+						"_owner": "An address for whom to query the balance"
+					},
+					"returns": {
+						"balance_": "The number of NFTs owned by `_owner`, possibly zero"
+					}
+				},
+				"totalSupply()": {
+					"returns": {
+						"totalSupply_": "the number of all NFTs that have been minted"
+					}
+				}
+			},
 			"version": 1
 		},
 		"userdoc": {
 			"kind": "user",
-			"methods": {},
+			"methods": {
+				"balanceOf(address)": {
+					"notice": "Count all NFTs assigned to an owner"
+				},
+				"totalSupply()": {
+					"notice": "Query the universal totalSupply of all NFTs ever minted"
+				}
+			},
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"Tmons/libs/LibAppStorage.sol": "LibAppStorage"
+			"Tmons/facets/TMonFacet.sol": "TMonFacet"
 		},
 		"evmVersion": "istanbul",
 		"libraries": {},
@@ -38,6 +118,14 @@
 			"urls": [
 				"bzz-raw://d7d3dd6067a994690471b5fc71b6f81fac3847798b37d404f74db00b4d3c3d0e",
 				"dweb:/ipfs/QmRHF1RarifjNi93RttouNPkYZGyu6CD926PgRDzD5iL35"
+			]
+		},
+		"Tmons/facets/TMonFacet.sol": {
+			"keccak256": "0xf614a4b76471bf9e6860211f14b479f038a25b16dbb3e154f93a28fa8524c395",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce43d7bd1108a70aaf1d42f4f507fd4c4b2c38871c2ea7583fca8766b61ff536",
+				"dweb:/ipfs/QmW5gqeTSwa4QWLkXkstzKZywm6jz9PWitKY4eLtjiYmyH"
 			]
 		},
 		"Tmons/libs/LibAppStorage.sol": {
